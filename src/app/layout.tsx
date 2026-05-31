@@ -30,6 +30,9 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.siteUrl),
+  verification: {
+    google: "LIJ6ATSYrHNqgHoDDQPOJEFYzZ2NU4IB4n3egAlq1Ds",
+  },
   title: {
     default: `${SITE_CONFIG.name} — Programming Tutor in Jaipur | Web Dev & DSA`,
     template: `%s | ${SITE_CONFIG.name}`,
