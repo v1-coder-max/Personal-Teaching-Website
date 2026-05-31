@@ -12,7 +12,7 @@ export const SITE_CONFIG = {
   experience: "3.5",
   technologies: "10",
   teachingSince: "2019",
-  siteUrl: "https://personal-teaching-website.vercel.app",
+  siteUrl: "https://codewithvishal.vercel.app",
   github: "https://github.com/v1-coder-max",
   linkedin: "https://www.linkedin.com/in/vishal-kumar-nama-62ab601a3/",
   youtube: "",
