@@ -132,7 +132,7 @@ export function BlogPostPage({ post }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="/#contact"
+              href="/contact"
               className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-[#4F46E5] text-white font-semibold text-sm hover:bg-[#4338CA] transition-colors"
             >
               Book a Session

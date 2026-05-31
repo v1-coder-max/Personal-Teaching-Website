@@ -108,7 +108,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <a
-              href="/#contact"
+              href="/contact"
               className="inline-flex items-center justify-center px-6 py-3.5 rounded-lg bg-[#4F46E5] text-white font-semibold text-base hover:bg-[#4338CA] transition-colors shadow-lg shadow-[#4F46E5]/30"
             >
               Book a Free Session

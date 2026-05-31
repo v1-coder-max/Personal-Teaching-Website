@@ -322,7 +322,7 @@ export function AboutPage() {
 
           <div className="text-center mt-10">
             <a
-              href="/#contact"
+              href="/contact"
               className="inline-flex items-center px-6 py-3 rounded-lg bg-white text-[#4F46E5] font-semibold hover:bg-gray-100 transition-colors"
             >
               Book a Free Trial Session

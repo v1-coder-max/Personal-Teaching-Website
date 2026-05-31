@@ -82,7 +82,7 @@ export function Testimonials() {
             Ready to level up your programming skills with a real-world developer as your mentor?
           </p>
           <a
-            href="/#contact"
+            href="/contact"
             className="inline-flex items-center px-6 py-3 rounded-lg bg-[#4F46E5] text-white font-semibold hover:bg-[#4338CA] transition-colors"
           >
             Start Your Journey Today

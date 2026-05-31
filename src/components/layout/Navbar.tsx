@@ -91,7 +91,7 @@ export function Navbar() {
 
           {/* CTA Button */}
           <a
-            href="/#contact"
+            href="/contact"
             className="hidden md:inline-flex items-center px-4 py-2 rounded-md bg-[#4F46E5] text-white text-sm font-semibold hover:bg-[#4338CA] transition-colors shadow-sm"
           >
             Book Free Session
@@ -124,7 +124,7 @@ export function Navbar() {
                 ))}
                 <div className="mt-4 pt-4 border-t border-border">
                   <a
-                    href="/#contact"
+                    href="/contact"
                     onClick={() => setOpen(false)}
                     className="flex w-full items-center justify-center px-4 py-2.5 rounded-md bg-[#4F46E5] text-white text-sm font-semibold hover:bg-[#4338CA] transition-colors"
                   >

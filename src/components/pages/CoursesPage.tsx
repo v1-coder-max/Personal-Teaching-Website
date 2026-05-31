@@ -106,7 +106,7 @@ export function CoursesPage() {
 
                   {/* CTA */}
                   <a
-                    href="/#contact"
+                    href="/contact"
                     className="flex w-full items-center justify-center py-2.5 rounded-lg text-sm font-semibold transition-colors"
                     style={{
                       border: `2px solid ${course.color}`,
@@ -141,7 +141,7 @@ export function CoursesPage() {
             I create custom curricula for any programming topic. Just reach out and we&apos;ll design the perfect learning plan for you.
           </p>
           <a
-            href="/#contact"
+            href="/contact"
             className="inline-flex items-center px-6 py-3 rounded-lg bg-[#4F46E5] text-white font-semibold hover:bg-[#4338CA] transition-colors"
           >
             Request Custom Course

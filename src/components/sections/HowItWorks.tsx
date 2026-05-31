@@ -107,7 +107,7 @@ export function HowItWorks() {
           transition={{ delay: 0.4 }}
         >
           <a
-            href="/#contact"
+            href="/contact"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-lg bg-[#4F46E5] text-white font-semibold hover:bg-[#4338CA] transition-colors shadow-lg shadow-[#4F46E5]/30"
           >
             Book Your Free Session

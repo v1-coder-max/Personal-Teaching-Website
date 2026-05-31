@@ -67,7 +67,7 @@ export function FAQ() {
             Still have questions? I&apos;m happy to chat!
           </p>
           <a
-            href="/#contact"
+            href="/contact"
             className="inline-flex items-center px-6 py-3 rounded-lg bg-[#4F46E5] text-white font-semibold hover:bg-[#4338CA] transition-colors"
           >
             Ask Me Directly

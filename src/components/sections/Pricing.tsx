@@ -67,7 +67,7 @@ export function Pricing() {
               </ul>
 
               <a
-                href="/#contact"
+                href="/contact"
                 className={`w-full flex items-center justify-center py-3 rounded-lg font-semibold text-sm transition-colors ${
                   plan.popular
                     ? "bg-[#4F46E5] text-white hover:bg-[#4338CA] shadow-md shadow-[#4F46E5]/30"
