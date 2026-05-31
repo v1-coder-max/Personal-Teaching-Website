@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     google: "LIJ6ATSYrHNqgHoDDQPOJEFYzZ2NU4IB4n3egAlq1Ds",
   },
   title: {
-    default: `${SITE_CONFIG.name} — Programming Tutor in Jaipur | Web Dev & DSA`,
+    default: `${SITE_CONFIG.name} - Programming Tutor in Jaipur | Web Dev & DSA`,
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description:
@@ -58,15 +58,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: SITE_CONFIG.siteUrl,
-    siteName: `${SITE_CONFIG.name} — Programming Tutor`,
-    title: `${SITE_CONFIG.name} — Programming Tutor in Jaipur | Web Dev & DSA`,
+    siteName: `${SITE_CONFIG.name} - Programming Tutor`,
+    title: `${SITE_CONFIG.name} - Programming Tutor in Jaipur | Web Dev & DSA`,
     description:
       "Learn programming, web development, DSA and more with Vishal Nama. Online & offline in Jaipur, Rajasthan. Book a free trial session today.",
-    images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: `${SITE_CONFIG.name} — Programming Tutor` }],
+    images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: `${SITE_CONFIG.name} - Programming Tutor` }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_CONFIG.name} — Programming Tutor in Jaipur`,
+    title: `${SITE_CONFIG.name} - Programming Tutor in Jaipur`,
     description: "Learn programming, web development & DSA with Vishal Nama. Online & offline in Jaipur.",
     images: [SITE_CONFIG.ogImage],
   },
@@ -105,7 +105,7 @@ const jsonLd = {
     {
       "@type": "LocalBusiness",
       "@id": `${SITE_CONFIG.siteUrl}/#business`,
-      name: `${SITE_CONFIG.name} — Programming Tutor`,
+      name: `${SITE_CONFIG.name} - Programming Tutor`,
       description: "One-on-one programming tutoring for Python, Web Development, DSA, and Interview Prep. Online and in-person sessions in Jaipur.",
       url: SITE_CONFIG.siteUrl,
       telephone: `+${SITE_CONFIG.whatsapp}`,
@@ -130,7 +130,7 @@ const jsonLd = {
     {
       "@type": "EducationalOrganization",
       "@id": `${SITE_CONFIG.siteUrl}/#org`,
-      name: `${SITE_CONFIG.name} — Programming Education`,
+      name: `${SITE_CONFIG.name} - Programming Education`,
       url: SITE_CONFIG.siteUrl,
       address: {
         "@type": "PostalAddress",

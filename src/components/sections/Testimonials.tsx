@@ -22,7 +22,7 @@ export function Testimonials() {
             What Students Say
           </h2>
           <p className="text-muted-foreground text-lg">
-            Don&apos;t just take my word for it — hear from students who&apos;ve transformed their careers.
+            Don&apos;t just take my word for it - hear from students who&apos;ve transformed their careers.
           </p>
         </motion.div>
 

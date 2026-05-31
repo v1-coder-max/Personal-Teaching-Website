@@ -29,7 +29,7 @@ export function Services() {
             Courses & Services
           </h2>
           <p className="text-muted-foreground text-lg">
-            From absolute beginner to job-ready developer — I cover everything you need.
+            From absolute beginner to job-ready developer - I cover everything you need.
           </p>
         </motion.div>
 

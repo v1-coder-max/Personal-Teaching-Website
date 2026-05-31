@@ -14,7 +14,7 @@ const SKILLS = [
 const HIGHLIGHTS = [
   { icon: CheckCircle2, text: "Patient, personalized 1-on-1 teaching style" },
   { icon: CheckCircle2, text: "Real-world project-based curriculum" },
-  { icon: CheckCircle2, text: "Bilingual — Hindi & English sessions" },
+  { icon: CheckCircle2, text: "Bilingual - Hindi & English sessions" },
   { icon: CheckCircle2, text: "Flexible scheduling to fit your routine" },
 ];
 
@@ -50,7 +50,7 @@ export function About() {
               <div className="relative aspect-square rounded-2xl overflow-hidden border-2 border-[#4F46E5]/20 shadow-xl">
                 <Image
                   src="/Photo.png"
-                  alt="Vishal Nama — Programming Tutor"
+                  alt="Vishal Nama - Programming Tutor"
                   fill
                   className="object-cover"
                   priority
@@ -104,18 +104,18 @@ export function About() {
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed mb-6">
               <p>
-                I&apos;m a software developer and programming educator based in Jaipur, Rajasthan, with{" "}
-                {SITE_CONFIG.experience}+ years of professional development experience. I bridge the gap
-                between theory and the real world — teaching what actually matters in industry.
+                I&apos;m a software developer based in Jaipur who started teaching on Preply in 2024.
+                I have {SITE_CONFIG.experience}+ years working as a developer, so I teach things
+                I actually use at work - not just textbook stuff.
               </p>
               <p>
-                My teaching style is hands-on and project-based. I believe the best way to learn
-                programming is by building things. Whether you're aiming for college placements,
-                a career switch, or just want to learn to code — I tailor every session to your goals.
+                I focus a lot on building actual projects. I think that&apos;s the fastest way to learn.
+                Whether you want to crack placements, switch careers, or just get started with coding,
+                we&apos;ll figure out the best plan for you in the first session.
               </p>
               <p>
-                Based in Jaipur, I offer both in-person classes locally and online sessions
-                for students across India and the world. Sessions are available in both Hindi and English.
+                I&apos;m based in Jaipur and take both in-person and online sessions.
+                I teach in Hindi and English - whichever is more comfortable for you.
               </p>
             </div>
 

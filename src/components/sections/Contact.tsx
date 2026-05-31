@@ -72,7 +72,7 @@ export function Contact() {
             Let&apos;s Start Your Learning Journey
           </h2>
           <p className="text-muted-foreground text-lg">
-            Reach out today — the first session is always free.
+            Reach out today - the first session is always free.
           </p>
         </motion.div>
 
@@ -110,7 +110,7 @@ export function Contact() {
                 <p className="font-semibold text-foreground group-hover:text-[#25D366] transition-colors">
                   Message on WhatsApp
                 </p>
-                <p className="text-sm text-muted-foreground">Fastest response — usually within 2 hours</p>
+                <p className="text-sm text-muted-foreground">Fastest response - usually within 2 hours</p>
               </div>
             </a>
 

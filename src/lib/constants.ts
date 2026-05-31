@@ -8,7 +8,7 @@ export const SITE_CONFIG = {
   whatsapp: "918302159850",
   whatsappMessage: "Hi Vishal, I want to learn programming!",
   location: "Jaipur, Rajasthan, India",
-  availability: "Flexible hours — reach out to schedule",
+  availability: "Flexible hours - reach out to schedule",
   experience: "3.5",
   technologies: "10",
   teachingSince: "2019",
@@ -31,7 +31,7 @@ export const SERVICES: Service[] = [
   {
     icon: "Code2",
     title: "Programming Languages",
-    description: "Master Python, C, C++, Java, and JavaScript from the ground up with hands-on exercises.",
+    description: "Learn Python, C, C++, Java, and JavaScript properly. We go from basics to writing actual working programs.",
     topics: ["Python", "C", "C++", "Java", "JavaScript"],
   },
   {
@@ -43,19 +43,19 @@ export const SERVICES: Service[] = [
   {
     icon: "BrainCircuit",
     title: "DSA & Problem Solving",
-    description: "Arrays, Trees, Graphs, Dynamic Programming — build the skills to ace technical interviews.",
+    description: "Arrays, Trees, Graphs, Dynamic Programming - build the skills to ace technical interviews.",
     topics: ["Arrays", "Linked Lists", "Trees", "Graphs", "DP"],
   },
   {
     icon: "Briefcase",
     title: "Interview Preparation",
-    description: "Mock interviews, resume review, and LeetCode strategy tailored for top companies.",
+    description: "Mock interviews, resume help, and LeetCode prep. I know what interviewers look for.",
     topics: ["Mock Interviews", "LeetCode", "Resume Review", "System Design"],
   },
   {
     icon: "Rocket",
     title: "Project Mentoring",
-    description: "Build real-world projects for your portfolio that stand out to recruiters.",
+    description: "Work on actual projects you can show in interviews. Much better than just watching tutorials.",
     topics: ["Portfolio Projects", "Code Reviews", "Best Practices", "Deployment"],
   },
   {
@@ -71,7 +71,7 @@ export const COURSES: Course[] = [
     icon: "Terminal",
     title: "Python Programming",
     level: "Beginner",
-    description: "Learn Python from scratch — syntax, OOP, file handling, and real-world projects.",
+    description: "Start from zero and get comfortable with Python. We cover basics, OOP, and build a few small projects along the way.",
     topics: ["Variables & Data Types", "Functions & OOP", "File Handling", "Libraries", "Mini Projects"],
     color: "#3B82F6",
   },
@@ -79,7 +79,7 @@ export const COURSES: Course[] = [
     icon: "Cpu",
     title: "C & C++ Fundamentals",
     level: "Beginner",
-    description: "Build a strong foundation in C and C++ — perfect for competitive programming.",
+    description: "Build a strong foundation in C and C++ - perfect for competitive programming.",
     topics: ["Pointers", "Memory Management", "STL", "OOP in C++", "Competitive Coding"],
     color: "#8B5CF6",
   },
@@ -169,7 +169,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     name: "Trial Lesson",
     price: "Free",
     period: "1 session",
-    description: "Try before you commit — a free session to see if we're a good fit.",
+    description: "Try before you commit - a free session to see if we're a good fit.",
     features: [
       "1-on-1 session with Vishal",
       "Skill & goal assessment",
@@ -183,7 +183,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     name: "Per Hour",
     price: "₹200",
     period: "per hour",
-    description: "Pay as you go — book whenever you need help, no strings attached.",
+    description: "Pay as you go - book whenever you need help, no strings attached.",
     features: [
       "60-minute 1-on-1 session",
       "Any topic of your choice",
@@ -196,10 +196,10 @@ export const PRICING_PLANS: PricingPlan[] = [
     cta: "Book a Session",
   },
   {
-    name: "Pro — 1 Month",
+    name: "Pro - 1 Month",
     price: "₹3,000",
     period: "per month",
-    description: "20 sessions a month — structured learning at the best value.",
+    description: "20 sessions a month - best option if you want to learn consistently.",
     features: [
       "20 sessions (60 min each)",
       "Save ₹1,000 vs per-hour rate",
@@ -224,11 +224,11 @@ export const FAQ_ITEMS: FAQItem[] = [
   },
   {
     question: "What age groups do you teach?",
-    answer: "I teach students from Class 9 onwards — school students, college students, working professionals, and career switchers are all welcome.",
+    answer: "I teach students from Class 9 onwards - school students, college students, working professionals, and career switchers are all welcome.",
   },
   {
     question: "Do you provide study material and notes?",
-    answer: "Yes, I provide handcrafted notes, code snippets, reference sheets, and curated problem sets for every topic we cover.",
+    answer: "Yes, I share notes and code after every session. For DSA I also share a list of problems to practice on your own.",
   },
   {
     question: "Can I record the sessions?",
@@ -240,7 +240,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   },
   {
     question: "Do you help with college project assignments?",
-    answer: "Yes! I help with understanding concepts behind college projects, guiding you to build them yourself — this builds real skills rather than just submitting work.",
+    answer: "Yes! I help with understanding concepts behind college projects, guiding you to build them yourself - this builds real skills rather than just submitting work.",
   },
   {
     question: "What is the payment method?",
@@ -252,7 +252,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "top-10-dsa-patterns",
     title: "Top 10 DSA Patterns Every Programmer Must Know",
-    excerpt: "Crack 80% of LeetCode problems by mastering these 10 recurring patterns. From sliding window to dynamic programming — learn to spot patterns instantly.",
+    excerpt: "Crack 80% of LeetCode problems by mastering these 10 recurring patterns. From sliding window to dynamic programming - learn to spot patterns instantly.",
     date: "2025-01-15",
     tags: ["DSA", "Algorithms", "Interview Prep"],
     readTime: "8 min read",
@@ -280,7 +280,7 @@ Sort arrays containing numbers in a given range in O(n)...
 Reverse parts of a linked list without extra space...
 
 ## 7. Tree BFS & DFS
-Breadth and depth first traversals — the backbone of tree problems...
+Breadth and depth first traversals - the backbone of tree problems...
 
 ## 8. Two Heaps
 Balance two halves of a dataset dynamically...
@@ -323,7 +323,7 @@ Don't jump into React without solid JS foundations...
 ## Week 4: Build Something Real
 Theory without practice is useless. In the final week, build a complete project...
 
-The key is consistency — even 2 hours a day beats marathon weekend sessions.
+The key is consistency - even 2 hours a day beats marathon weekend sessions.
     `.trim(),
   },
   {

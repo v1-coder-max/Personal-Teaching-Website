@@ -83,7 +83,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            Master Programming —{" "}
+            Master Programming -{" "}
             <span className="gradient-text">
               In Any Language
             </span>
@@ -96,8 +96,8 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            1-on-1 tutoring in Web Dev, DSA, Python & more. Online & offline in Jaipur.
-            Personalized learning plans designed to get you hired.
+            1-on-1 sessions in Web Dev, DSA, Python and more. Online or in-person in Jaipur.
+            I teach what I use at work, so you actually learn what matters.
           </motion.p>
 
           {/* CTAs */}

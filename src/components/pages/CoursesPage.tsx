@@ -45,7 +45,7 @@ export function CoursesPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            From absolute beginner to interview-ready — structured 1-on-1 sessions tailored to your pace and goals.
+            From absolute beginner to interview-ready - structured 1-on-1 sessions tailored to your pace and goals.
           </motion.p>
         </div>
       </section>

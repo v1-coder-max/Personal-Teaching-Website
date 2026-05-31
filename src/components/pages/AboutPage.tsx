@@ -26,7 +26,7 @@ const EDUCATION = [
   {
     year: "2022",
     title: "Campus Placement",
-    subtitle: "Got placed as a software developer — started building real-world products professionally",
+    subtitle: "Got placed as a software developer - started building real-world products professionally",
     icon: "💼",
   },
   {
@@ -41,7 +41,7 @@ const WHY_ME = [
   {
     icon: Target,
     title: "Goal-Oriented Teaching",
-    desc: "Every session is structured around your specific goals — placement, freelancing, or personal projects.",
+    desc: "Every session is structured around your specific goals - placement, freelancing, or personal projects.",
   },
   {
     icon: Heart,
@@ -51,12 +51,12 @@ const WHY_ME = [
   {
     icon: Lightbulb,
     title: "Practical, Real-World Focus",
-    desc: "No theoretical fluff. Every concept is taught with hands-on code and real-world applications.",
+    desc: "We skip the long theory lectures. First session we write code, and it stays that way.",
   },
   {
     icon: Trophy,
     title: "Real-World Developer",
-    desc: "3.5+ years building production software — I teach what actually works in the industry.",
+    desc: "3.5+ years building production software - I teach what actually works in the industry.",
   },
 ];
 
@@ -84,7 +84,7 @@ export function AboutPage() {
                 <div className="relative w-full h-full rounded-2xl overflow-hidden border-2 border-[#4F46E5]/30 shadow-xl">
                   <Image
                     src="/Photo.png"
-                    alt="Vishal Nama — Programming Tutor"
+                    alt="Vishal Nama - Programming Tutor"
                     fill
                     className="object-cover"
                     priority
@@ -117,19 +117,17 @@ export function AboutPage() {
               </h1>
               <div className="space-y-3 text-muted-foreground leading-relaxed mb-6">
                 <p>
-                  I&apos;m a software developer and programming educator based in Jaipur, Rajasthan, with{" "}
-                  {SITE_CONFIG.experience}+ years of professional development experience. I help students —
-                  from beginners to working professionals — build real, in-demand skills using the same
-                  tools and practices I use every day.
+                  I&apos;m a software developer from Jaipur with {SITE_CONFIG.experience}+ years of
+                  experience. I got placed at Metacube in 2022 and started teaching on Preply in 2024.
+                  I teach what I actually use at work, so you learn things that are useful right away.
                 </p>
                 <p>
-                  My philosophy: the best way to learn programming is by building real things. I don&apos;t just
-                  teach syntax — I guide you through real projects, actual problem-solving, and the mindset you
-                  need to grow as a developer.
+                  I mostly focus on building projects because I think that&apos;s how you actually
+                  get better. Concepts make more sense when you&apos;re applying them to something real.
                 </p>
                 <p>
-                  Whether you&apos;re in Jaipur looking for in-person sessions, or anywhere in India (or the world)
-                  looking for online classes — let&apos;s build something together.
+                  I take sessions in Jaipur and online. Happy to teach in Hindi or English,
+                  whatever works better for you.
                 </p>
               </div>
               <div className="flex flex-wrap gap-3">
@@ -177,7 +175,7 @@ export function AboutPage() {
               },
               {
                 title: "Industry Ready",
-                desc: "I teach what matters in the real world — clean code, Git, debugging, and collaboration.",
+                desc: "I teach what matters in the real world - clean code, Git, debugging, and collaboration.",
                 emoji: "🎯",
               },
             ].map((item, i) => (

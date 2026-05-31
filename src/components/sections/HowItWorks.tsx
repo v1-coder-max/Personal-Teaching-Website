@@ -22,7 +22,7 @@ const STEPS = [
     icon: BookOpen,
     step: "03",
     title: "Start Learning",
-    description: "Begin your personalized sessions. Online or in-person in Jaipur — you choose.",
+    description: "Begin your personalized sessions. Online or in-person in Jaipur - you choose.",
     color: "#10B981",
   },
 ];
@@ -46,7 +46,7 @@ export function HowItWorks() {
             How It Works
           </h2>
           <p className="text-muted-foreground text-lg">
-            Getting started is easy — three simple steps to begin your learning journey.
+            Three steps and you're in. No complicated process.
           </p>
         </motion.div>
 

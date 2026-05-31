@@ -31,7 +31,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-4">
-              {SITE_CONFIG.tagline} — Helping students master programming from Jaipur to the world.
+              {SITE_CONFIG.tagline} - Helping students master programming from Jaipur to the world.
             </p>
             <p className="text-xs text-[#4F46E5] font-medium">
               Available for online tutoring across India

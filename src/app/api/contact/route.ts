@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
       from: "Website Contact <onboarding@resend.dev>",
       to: process.env.CONTACT_EMAIL!,
       replyTo: email,
-      subject: `New enquiry from ${name} — ${topic}`,
+      subject: `New enquiry from ${name} - ${topic}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 24px; background: #f9fafb; border-radius: 12px;">
           <h2 style="color: #4F46E5; margin-top: 0;">New Contact Form Submission</h2>
