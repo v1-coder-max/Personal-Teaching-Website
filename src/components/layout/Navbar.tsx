@@ -52,7 +52,7 @@ export function Navbar() {
               href={link.href}
               className={cn(
                 "px-4 py-2 rounded-md text-sm font-medium transition-colors",
-                pathname === link.href
+                !link.href.includes("#") && pathname === link.href
                   ? "text-[#4F46E5] bg-[#4F46E5]/10"
                   : "text-muted-foreground hover:text-foreground hover:bg-muted"
               )}
@@ -104,7 +104,7 @@ export function Navbar() {
                     onClick={() => setOpen(false)}
                     className={cn(
                       "px-4 py-3 rounded-md text-sm font-medium transition-colors",
-                      pathname === link.href
+                      !link.href.includes("#") && pathname === link.href
                         ? "text-[#4F46E5] bg-[#4F46E5]/10"
                         : "text-muted-foreground hover:text-foreground hover:bg-muted"
                     )}
