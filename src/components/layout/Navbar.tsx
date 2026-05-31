@@ -16,13 +16,23 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [hash, setHash] = useState("");
 
   useEffect(() => {
     setMounted(true);
+    setHash(window.location.hash);
     const onScroll = () => setScrolled(window.scrollY > 20);
+    const onHash = () => setHash(window.location.hash);
     window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    window.addEventListener("hashchange", onHash);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("hashchange", onHash);
+    };
   }, []);
+
+  const isActive = (href: string) =>
+    !href.includes("#") && pathname === href && !hash;
 
   return (
     <header
@@ -52,7 +62,7 @@ export function Navbar() {
               href={link.href}
               className={cn(
                 "px-4 py-2 rounded-md text-sm font-medium transition-colors",
-                !link.href.includes("#") && pathname === link.href
+                isActive(link.href)
                   ? "text-[#4F46E5] bg-[#4F46E5]/10"
                   : "text-muted-foreground hover:text-foreground hover:bg-muted"
               )}
@@ -104,7 +114,7 @@ export function Navbar() {
                     onClick={() => setOpen(false)}
                     className={cn(
                       "px-4 py-3 rounded-md text-sm font-medium transition-colors",
-                      !link.href.includes("#") && pathname === link.href
+                      isActive(link.href)
                         ? "text-[#4F46E5] bg-[#4F46E5]/10"
                         : "text-muted-foreground hover:text-foreground hover:bg-muted"
                     )}
